@@ -1,0 +1,21 @@
+.hero {
+  background-color: $grey-container;
+
+  &__container {
+    @extend %container, %flex;
+    @include md {
+      justify-content: space-between;
+    }
+  }
+
+  &__header {
+    font-size: 50px;
+    @include md {
+      font-size: 70px;
+    }
+  }
+
+  &__subheader {
+    @extend %smallheader;
+  }
+}

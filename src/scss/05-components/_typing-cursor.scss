@@ -1,0 +1,28 @@
+.cursor {
+  animation: blink 1s infinite;
+  background-color: $charcoal;
+  display: inline-block;
+  margin-left: 0.1rem;
+  width: 3px;
+}
+.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: $charcoal;
+  }
+  49% {
+    background-color: $charcoal;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: $charcoal;
+  }
+}

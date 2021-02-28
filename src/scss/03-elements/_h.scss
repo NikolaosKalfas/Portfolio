@@ -1,0 +1,6 @@
+h1 {
+  font-size: 25px;
+  @include md {
+    font-size: 40px;
+  }
+}
