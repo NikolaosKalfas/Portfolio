@@ -1,0 +1,9 @@
+.content h2 {
+  @extend %smallheader;
+  margin: 4% 0 5%;
+  text-align: center;
+
+  @include md {
+    margin: 1% 0 2%;
+  }
+}

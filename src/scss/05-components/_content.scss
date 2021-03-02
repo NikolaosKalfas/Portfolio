@@ -1,0 +1,7 @@
+.content {
+  @extend %container;
+
+  &__description {
+    margin: 1% 0;
+  }
+}

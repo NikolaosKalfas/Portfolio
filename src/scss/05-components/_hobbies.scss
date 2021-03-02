@@ -1,0 +1,11 @@
+.hobbies {
+  @extend %flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  img {
+    margin: 1%;
+    max-width: 200px;
+  }
+}

@@ -1,0 +1,12 @@
+.skills {
+  @extend %flex;
+  justify-content: space-evenly;
+
+  img {
+    max-width: 420px;
+  }
+
+  &__copy {
+    max-width: 550px;
+  }
+}

@@ -1,0 +1,34 @@
+%container {
+  padding: 1% 10%;
+}
+
+%smallheader {
+  font-size: 25px;
+  @include md {
+    font-size: 50px;
+  }
+}
+
+%flex {
+  display: flex;
+  flex-flow: column;
+
+  @include md {
+    align-items: center;
+    flex-flow: row;
+  }
+}
+
+%grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+%col-1-3 {
+  grid-column: span 12;
+  @include md {
+    grid-column: span 4;
+  }
+}
