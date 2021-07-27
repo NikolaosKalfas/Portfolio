@@ -1,0 +1,21 @@
+input, textarea {
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 0 10px
+}
+
+textarea {
+    resize: none;
+}
+
+form button {
+    @extend %regular-font;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 1% 10%;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder {
+    @extend %regular-font;
+}
